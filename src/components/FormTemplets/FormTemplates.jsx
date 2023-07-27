@@ -8,7 +8,7 @@ const FormTemplates = () => {
   const navigate = useNavigate(); 
 
   const goToForms = () =>{
-    navigate("/forms")
+    navigate("/create")
   }
 
   useEffect(() => {
